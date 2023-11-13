@@ -2,16 +2,17 @@ import React from 'react';
 
 function Navbar() {
   return (
-    <div className="w-full flex items-center justify-between px-24 h-16 bg-[#623280]">
-
-      <a href="/" className="text-white text-xl font-bold">
+    <div className="w-full flex items-center justify-between px-24  h-16 mb-2
+    text-black text-opacity-80  shadow bg-[#f9efff]"
+    >
+      <a href="/" className="text-xl">
         SPA - UTFSM
       </a>
       <div className="flex items-center justify-center gap-5">
-        <div className="text-white text-lg font-bold">
+        <div className=" text font-normal">
           Juan Perez
         </div>
-        <span className="bg-[#DBDBDB] h-10 w-10 rounded-full" />
+        <span className="bg-gray-500 h-10 w-10 rounded-full" />
       </div>
     </div>
   );

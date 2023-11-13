@@ -92,7 +92,7 @@ function Index() {
               <div className="text-[#422257] text-right font-bold w-[100px]" />
             </div>
             {datos.map((proceso) => (
-              <a className="py-2 hover:bg-gray-200 transition-all" href={`postulaciones/${proceso.id}`}>
+              <a className="py-2 hover:bg-gray-100 rounded transition-all" href={`postulaciones/${proceso.id}`}>
                 <div className="flex px-4 items-center">
                   <div className="font-medium gap-3 items-center w-[150px] flex">
                     <div>{ proceso.sigla }</div>
@@ -120,8 +120,8 @@ function Index() {
                     <div>{proceso.cupos}</div>
                   </div>
 
-                  <div className="gap-3 items-center justify-end flex w-[100px]">
-                    <div className="italic">detalles</div>
+                  <div className="gap-3 text-sm underline items-center justify-end flex w-[100px]">
+                    detalles
                   </div>
                 </div>
               </a>

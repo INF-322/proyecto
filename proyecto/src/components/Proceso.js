@@ -33,7 +33,7 @@ export default function Proceso() {
       nuevosPostulantes[i] = {
         id: i,
         name: faker.person.fullName(),
-        nota: faker.string.numeric(2),
+        nota: faker.number.int({ min: 55, max: 100 }),
         summary: 'ver',
       };
     }
